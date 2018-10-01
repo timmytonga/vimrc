@@ -13,11 +13,13 @@ set smartcase
 set backspace=2
 set autoindent
 set formatoptions=c,q,r,t
-set number
+set number          " display line number
 
 set mouse=a         " to use mouse 
 
-noremap <F3> :set invnumber<CR>
+" press F3 to inv number 
+noremap <F3> :set invnumber<CR>     
+
 inoremap <F3> <C-O>:set invnumber<CR>
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
